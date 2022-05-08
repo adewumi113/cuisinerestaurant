@@ -1,0 +1,282 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+html{
+  font-size: 62.5%;
+}
+
+li {
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  font-size: 1.3rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header{
+  background: url(background1.png);
+  background-repeat: round;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/******************************************
+/* HEADER NAV
+/*******************************************/
+header{
+  line-height: 4em;
+  overflow: hidden;
+}
+header nav li{
+  float: left;
+  padding-right: 4%;
+}
+header nav{
+  width: 60%;
+  margin-left: 50%;
+}
+header a, header nav li i{
+  color: black;
+}
+/******************************************
+/* HEADER SECTION
+/*******************************************/
+header section{
+  margin-left: 5%;
+  margin-top: 6%;
+}
+header section ul li{
+  float: left;
+  padding-right: 10%;
+}
+header section ul{
+  width: 30%;
+  margin-left: -3%;
+}
+header section li{
+  font-size: 1.3rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: bold;
+}
+header section li i{
+  color: darkorange;
+  font-size: 1.7rem;
+}
+
+header form input{
+  width: 15%;
+  font-size: 1.6rem;
+}
+header form span{
+  background: darkorange;
+  padding: 0.55% 1% 0.25% 1%;
+  margin-left: -0.5rem;
+  color: white;
+}
+header form i{
+  margin-top: -0.5%;
+}
+header form{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header div{
+  padding-bottom: 7%;
+  border: 1px hidden;
+  margin-top: -1%;
+}
+/******************************************
+/* MAIN
+/*******************************************/
+main{
+  height: 300%;
+}
+p, span{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.mmm{
+  background: url(background2.png);
+  background-repeat: round;
+  padding-bottom: 4%;
+  background-position: inherit;
+  padding-left: 42%;
+  margin-top: 1%;
+}
+#pkl{
+  color: orange;
+}
+.mmm span a{
+  color: white;
+  background: darkorange;
+  padding: 0.5% 1.5% 0.6% 1.5%;
+}
+.mmm span i{
+  color: white;
+  background: orange;
+  padding: 1.2% 1.5%;
+  margin-left: -1%;
+}
+/******************************************
+/* SECTION QBN
+/*******************************************/
+#qbn{
+  padding-top: 2%;
+  text-align: center;
+  padding-bottom: 4%;
+  background: rgb(249, 248, 248);
+}
+#qbn nav li{
+  display: inline;
+  text-align: center;
+  width: 8%;
+  padding-right: 1%;
+}
+#qbn nav{
+  margin-right: 1%;
+}
+ main #qbn div{
+  height: 1.5px;
+  width: 26%;
+  background: rgb(197, 193, 193);
+  overflow: hidden;
+  margin-left: 38%;
+}
+#qbn a{
+  color: black;
+}
+section#qbn .dxc{
+  color: darkorange;
+}
+#qbn h2{
+  margin-top: 1%;
+}
+#sjk{
+  margin-top: 2%;
+}
+#sjk img{
+  height: 18%;
+  width: 13%;
+  padding-right: 1.5%;
+}
+/******************************************
+/* SECTION KKS
+/*******************************************/
+.kks{
+  text-align: center;
+  padding-top: 2%;
+  padding-bottom: 3%;
+  line-height: 2em;
+  background-color: rgb(240, 240, 240);
+}
+main img{
+  width: 43%;
+  height: 27%;
+  padding-top: 1%;
+}
+.jtn, #skk{
+  color: darkorange;
+}
+.kks i{
+  font-size: 1.7rem;
+  border-radius: 50%;
+  width: 3%;
+  height: 0.5%;
+  border: 1px solid darkorange;
+  text-align: center;
+  padding: 0.5%;
+  margin-bottom: 1%;
+}
+.kks span{
+  font-size: 1.1em;
+  font-weight: bold;
+}
+.kks div h4{
+  display: inline;
+  padding: 2% 7%;
+}
+.kks div p{
+  display: inline;
+  padding: 2% 11.5% 0 0;
+}
+.kks h2, .kks h3{
+  margin-top: 1%;
+}
+#tems{
+  margin-left: 7%;
+}
+#tem{
+  margin-left: 5%;
+  padding-left: 2%;
+}
+/******************************************
+/* FOOTER
+/*******************************************/
+footer{
+  text-align: center;
+  line-height: 2em;
+  margin-top: 2%;
+  padding-bottom: 2%;
+}
+footer span{
+  display: block;
+}
+footer img{
+  width: 8%;
+  height: 8%;
+}
+footer :first-child{
+  color: darkorange;
+}
+footer :nth-child(4){
+  font-weight: bold;
+  font-size: 1.6em;
+}
+footer i{
+  color: orange;
+}
+footer :nth-child(5){
+  font-size: 1.1em;
+}
+/******************************************
+/* TYPOGRAPHY
+/*******************************************/
+h1{
+  font-size: 4rem;
+}
+h2{
+  font-size: 3.5rem;
+}
+h3,h4{
+  font-size: 2rem;
+}
+p{
+  font-size: 1.4em;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+@media only screen and (max-width: 950px){
+  footer{
+    display: none;
+  }
+}
